@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+body {
+  color: black;
+  font-size: 16px;
+}
+header .top-header {
+  background-color: #088f33;
+  padding: 5px 0px;
+}
+header .top-header marquee {
+  color: white;
+}
+header .top-header .social-media {
+  text-align: center;
+  color: white;
+}
+header .top-header .social-media a {
+  margin-right: 10px;
+}
+
+.navbar {
+  background-color: #0b732b;
+}
+
+header .contact ul li {
+  color: white;
+  font-size: 14px;
+}
+header .contact ul {
+  margin-bottom: 0px !important;
+}
+header .contact ul li {
+  margin-right: 10px;
+}
+header .contact ul li a i {
+  margin-right: 5px;
+}
+
+
+header .navbar .logo{
+    position: absolute;
+    top: -40px;
+    border: 2px solid orangered;
+}
+ .navbar-collapse{
+    justify-content: end;
+ }
+ .navbar-nav{
+    gap: 30px;
+ }
+ .navbar-nav li {
+color: white;
+ }
