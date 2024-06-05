@@ -50,18 +50,64 @@ header .contact ul li a i {
   margin-right: 5px;
 }
 
-
-header .navbar .logo{
-    position: absolute;
-    top: -40px;
-    border: 2px solid orangered;
+header .navbar .logo {
+  position: absolute;
+  top: -40px;
+  border: 2px solid orangered;
+  z-index: 999;
 }
- .navbar-collapse{
-    justify-content: end;
- }
- .navbar-nav{
-    gap: 30px;
- }
- .navbar-nav li {
-color: white;
- }
+.navbar-collapse {
+  justify-content: end;
+}
+.navbar-nav {
+  gap: 30px;
+}
+.navbar-nav li {
+  color: white;
+}
+
+.carousel .carousel-item {
+  height: 80vh;
+  position: relative;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  right: 15% !important;
+  left: initial !important;
+  bottom: initial !important;
+  transform: translateY(-50%);
+  width: 50%;
+  text-align: right !important;
+  color: white !important;
+}
+.carousel-caption a {
+  background-color: #ed7701;
+  padding: 8px 20px;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+  filter: none !important;
+}
+
+.about-us p{
+text-align: justify;
+}
+.feature-section ul li{
+  display: block;
+  padding-bottom: 2px;
+}
+.feature-section ul li a i{
+ color: green;
+}
+.feature-section ul li a:hover{
+  text-decoration: underline !important;
+}
+.about-us .view-more-btn{
+  background-color: #ed7701;
+  padding: 8px 20px;
+  color: white !important;
+  margin-top: 20px;
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+}
