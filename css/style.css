@@ -85,24 +85,25 @@ header .navbar .logo {
   background-color: #ed7701;
   padding: 8px 20px;
 }
-.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+.carousel-dark .carousel-control-next-icon,
+.carousel-dark .carousel-control-prev-icon {
   filter: none !important;
 }
 
-.about-us p{
-text-align: justify;
+.about-us p {
+  text-align: justify;
 }
-.feature-section ul li{
+.feature-section ul li {
   display: block;
   padding-bottom: 2px;
 }
-.feature-section ul li a i{
- color: green;
+.feature-section ul li a i {
+  color: green;
 }
-.feature-section ul li a:hover{
+.feature-section ul li a:hover {
   text-decoration: underline !important;
 }
-.about-us .view-more-btn{
+.about-us .view-more-btn {
   background-color: #ed7701;
   padding: 8px 20px;
   color: white !important;
@@ -110,4 +111,73 @@ text-align: justify;
   width: fit-content;
   display: block;
   margin-left: auto;
+}
+.specialities-card {
+  overflow: hidden;
+  position: relative;
+}
+.specialities-card figure {
+  height: 300px;
+  margin-bottom: 0px;
+}
+.specialities-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s linear;
+}
+.specialities-card figure figcaption {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+}
+.specialities-card:hover img {
+  transform: scale(1.4);
+}
+.specialities-card figure figcaption:hover {
+  background: orange !important;
+}
+.best-selling-card {
+  height: 300px;
+  position: relative;
+}
+.best-selling-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.best-selling-card .details {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.best-selling-card .details {
+  color: white;
+  font-size: 18px;
+}
+.best-selling-card .details .tourname {
+  background-color: #0b732b;
+  padding: 5px;
+}
+.best-selling-card .details .day {
+  background-color: #ed7701;
+  padding: 5px;
+text-align: center;
+}
+
+.price{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #ed7701;
+  color: white;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 600;
+  display: none;
+}
+.best-selling-card:hover .price{
+  display: block;
 }
