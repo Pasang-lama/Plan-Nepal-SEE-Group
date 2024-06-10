@@ -181,3 +181,64 @@ text-align: center;
 .best-selling-card:hover .price{
   display: block;
 }
+
+.best-selling-card img:hover {
+opacity: 0.5;
+}
+.best-selling .nav-tabs{
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.best-selling .nav-tabs li{
+ background-color: #0b732b;
+ color: white;
+}
+.best-selling .nav-tabs li button{
+  color: white;
+  border-radius: 0px !important;
+ }
+ .best-selling .nav-tabs li button.active{
+  color: white;
+  background-color: #ed7701;
+
+ }
+
+ #TESTIMONALS-slider{
+  background-image: url("../images/clients.jpg");
+  background-position: center;
+  height: 400px;
+ }
+
+ #TESTIMONALS-slider .carousel-caption {
+left: 0px !important;
+bottom: initial !important;
+right: initial !important;
+width: 100% !important;
+top: 30% !important;
+ }
+ .accordion-item .accordion-header button{
+  background-color: #088f33;
+  color: white;
+
+ }
+
+ footer{
+  background-color: #333333;
+ }
+ footer ul li{
+  display: block;
+  margin-bottom: 5px;
+  transition: all 0.5s linear;
+ }
+ footer .col-heading{
+  font-size: 20px;
+  font-weight: 600;
+
+ }
+ footer ul li:hover{
+  transform: translateX(20px);
+  color: #ed7701;
+ }
+ .copyright{
+  background-color: #088f33;
+ }
